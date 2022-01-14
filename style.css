@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body
+{
+    font-family: 'Oswald', sans-serif;
+}
+main
+{
+    width: 95%;
+    background-color: white;
+    margin-left: 2.5%;
+}
+.start-influencer
+{
+    display: flex;
+}
+.half-width
+{
+    width: 50%
+}
+.text
+{
+    padding: 50px;
+    color: rgb(0, 0, 0);
+}
+.btn
+{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(94, 148, 139), rgb(22, 53, 110));
+    color: white;
+    padding: 1px 25px;
+    border-radius: 10px;
+}
+.half-width img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: cir;
+}
+.half-width p
+{
+    margin-bottom: 15px;
+}
+/* <!-- popular collection start --> */
+.collections
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    grid-gap: 25px;
+}
+.collection
+{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 10px grey;
+}
+.collection img
+{
+    width: 210px;
+    height: 200px;
+}
+.fa-star
+{
+    font-size: 12px;
+}
+.fa-star.filled
+{
+    color: rgb(151, 151, 56);
+}
+.fa-star.empty
+{
+    color: #aeaeae;
+}
+
+
+
+
+
+
+
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+    .start-influencer
+    {
+        display: grid;
+        grid-template-rows: 1fr, 1fr;
+        width: 100%;
+    }
+}
