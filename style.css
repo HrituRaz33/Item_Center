@@ -50,22 +50,30 @@ main
     width: 90%;
     grid-gap: 25px;
 }
+.collection 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.collection-text
+{
+    margin-left: 33px;
+}
 .collection
 {
     background-color: rgb(255, 255, 255);
     width: 250px;
-    height: 400px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    height: 370px;
     align-items: center;
     border-radius: 10px;
     box-shadow: 0px 2px 10px 10px grey;
 }
 .collection img
 {
-    width: 210px;
-    height: 200px;
+    width: 180px;
+    height: 150px;
+    margin-top: 15px;
 }
 .fa-star
 {
